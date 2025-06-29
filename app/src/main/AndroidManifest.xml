@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,7 @@
             android:name=".ui.spells.Spell"
             android:exported="false" />
         <activity
-            android:name=".ui.spell_detail.SpellDetail"
+            android:name=".ui.spells.SpellDetail"
             android:exported="false" />
         <activity
             android:name=".ui.character.Character"
