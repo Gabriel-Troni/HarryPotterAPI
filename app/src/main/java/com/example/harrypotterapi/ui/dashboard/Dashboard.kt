@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.harrypotterapi.R
+import com.example.harrypotterapi.ui.staff.StaffActivity
 import com.example.harrypotterapi.ui.character.Character
 import com.example.harrypotterapi.ui.spells.Spell
-import com.example.harrypotterapi.ui.staff.Staff
 import com.example.harrypotterapi.ui.students.Students
 
 class Dashboard : AppCompatActivity() {
@@ -31,7 +31,7 @@ class Dashboard : AppCompatActivity() {
     }
 
     fun listStaff(view: View) {
-        val intent = Intent(this, Staff::class.java)
+        val intent = Intent(this, StaffActivity::class.java)
         startActivity(intent)
     }
 
